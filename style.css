@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#wordSearch {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#wordSearch td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.selected {
+    background-color: #a0d8ff;
+}
+
+.found {
+    background-color: yellow;
+}
+
+#wordList {
+    margin: 20px auto;
+    text-align: left;
+    display: inline-block;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#wordList ul {
+    columns: 2;
+    column-gap: 40px;
+}
+
+#wordList li {
+    margin-bottom: 8px;
+}
